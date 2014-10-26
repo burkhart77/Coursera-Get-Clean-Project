@@ -12,16 +12,22 @@ Course Details: getdata-008, October 2014
 The purpose of my modifications to the original UCI HAR Dataset was to create a tidy dataset
 of combined train and test data. The original raw data will be cleaned and made tidy with my 
 code in the "run_analysis.R" file. The cleaned data will retain only the mean and standard 
-deviation feature measurements for x and y values. A tidy data set text file ("UCIHAR_Tidy.txt") with the averages 
-of these features will be created with descriptive variable names.
+deviation feature measurements for x and y values. A tidy data set text file ("UCIHAR_Tidy.txt") 
+with the averages of these features will be created with descriptive variable names.
 
 FILES
-This readme.md modified from the original raw dataset readme.txt
+This readme.md modified from the original raw dataset readme.txt. This contains the code book run instruction
+steps to recreate my tidy dataset, code book information and variable descriptions.
 run_analysis.R R code file with the code to convert from the raw dataset into the tidy dataset.
 
 
-CODE BOOK
-Original raw data set obtained from UCI Machine Learning Repository. Descriptions of the original raw data set are here as well as below my modifications: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+CODE BOOK / RUN INSTRUCTIONS
+
+1. Obtain original raw data set from UCI Machine Learning Repository. Descriptions of the original raw data set are here as well as below my modifications: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+2. Extraxt raw data zip file to the working directory of your R Studio.
+3. CD into UCI HAR Dataset.
+4. Download and run run_analysis.R code in R Studio.
+5. This will create a tidy dataset named UCIHAR_Tidy.txt.
 
 CLEAN DATA STEPS
 Activities to clean the data set are are follows:
@@ -34,6 +40,8 @@ Rename variables to more descriptive names.
 
 TIDY DATA STEPS
 Activities to tidy the data set are as follows:
+Use the Clean Data Set obtained above.
+Averages are calculated for each feature in the clean data set.
 
 VARIABLE DESCRIPTIONS
 Subject and activity column variables were created in the tidy data set. In addition the following 

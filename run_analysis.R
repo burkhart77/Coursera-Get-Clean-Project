@@ -24,11 +24,12 @@ ttX <- rbind(trainX,testX)
 feat <- read.csv("features.txt", sep=" ")
 
 ## Re-code the Activities from 1, 2, .. to WALKING, WALKING_UPSTAIRS, ...
+act <- read.csv("activity_labels.txt")
 
 ## Create descriptive variable names in my dataset
 
 ## Make the dataset Tidy
 
-write.csv("TBD", "UCIHAR_Tidy.txt", row.names=FALSE)
+write.csv(ttX, "UCIHAR_Tidy.txt", row.names=FALSE)
 
 } ## End Function run_analysis
