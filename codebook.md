@@ -1,0 +1,116 @@
+CODEBOOK
+==================================================================
+Human Activity Recognition Using Smartphones Dataset
+Version 2.0
+MODIFICATION to a single tidy dataset from the original raw data.
+==================================================================
+Danielle Schulz
+Coursera Data Scientist Track by John Hopkins University
+Code Book and Variable Descriptions for Coursera Getting and Cleaning Data Course 
+Course Details: getdata-016, December 2014
+==================================================================
+
+Variables, Summaries, Units
+
+1 ACTIVITY 
+	1 WALKING
+	
+	2 WALKING_UPSTAIRS
+	
+	3 WALKING_DOWNSTAIRS
+
+	4 SITTING
+	
+	5 STANDING
+
+	6 LAYING
+
+
+2 SUBJECT
+	1-30 Volunteers
+
+3 TIME BODY ACCELERATION MEAN
+	tBodyAcc-mean X,Y,Z
+3 TIME BODY ACCELERATION STD
+	tBodyAcc-std X, Y, Z
+	
+4 TIME GRAVITY ACCELERATION MEAN
+	tGravityAcc-mean X,Y,Z
+4 TIME GRAVITY ACCELERATION STD
+	tGravityAcc-std X, Y, Z
+	
+5 TIME BODY JERK MEAN
+	tBodyAccJerk-mean X,Y,Z
+5 TIME BODY JERK STD
+	tBodyAccJerk-std X, Y, Z
+	
+6 TIME BODY GYROSCOPE MEAN
+	tBodyGyro-mean X,Y,Z
+6 TIME BODY GYROSCOPE STD
+	tBodyGyro-std X, Y, Z
+	
+7 TIME BODY GYROSCOPE JERK MEAN
+	tBodyGyroJerk-mean X,Y,Z
+7 TIME BODY GYROSCOPE JERK STD
+	tBodyGyroJerk-std X, Y, Z
+	
+8 TIME BODY ACCELERATION MAGNITUDE MEAN
+	tBodyAccMag-mean 
+8 TIME BODY ACCELERATION MAGNITUDE STD
+	tBodyAccMag-std
+
+9 TIME GRAVITY ACCELERATION MAGNITUDE MEAN
+	tGravityAccMag-mean
+9 TIME GRAVITY ACCELERATION MAGNITUDE STD
+	tGravityAccMag-std
+	
+10 TIME BODY ACCELERATION JERK MAGNITUDE MEAN
+	tBodyAccJerkMag-mean
+10 TIME BODY ACCELERATION JERK MAGNITUDE STD
+	tBodyAccJerkMag-std
+	
+11 TIME BODY GYROSCOPE MAGNITUDE MEAN
+	tBodyGyroMag-mean
+11 TIME BODY GYROSCOPE MAGNITUDE STD
+	tBodyGyroMag-std
+
+12 TIME BODY GYROSCOPE JERK MAGNITUDE MEAN
+	tBodyGyroJerkMag-mean
+12 TIME BODY GYROSCOPE JERK MAGNITUDE STD
+	tBodyGyroJerkMag-std
+	
+13 FREQUENCY BODY ACCELERATION MEAN
+	fBodyAcc-mean X,Y,Z
+13 FREQUENCY BODY ACCELERATION STD
+	fBodyAcc-std X,Y,Z
+	
+14 FREQUENCY BODY ACCELERATION JERK MEAN
+	fBodyAccJerk-mean X,Y,Z
+14 FREQUENCY BODY ACCELERATION JERK STD
+	fBodyAccJerk-std X,Y,Z
+	
+15 FREQUENCY BODY GYROSCOPE MEAN
+	fBodyGyro-mean X,Y,Z
+15 FREQUENCY BODY GYROSCOPE STD
+	fBodyGyro-std X,Y,Z
+	
+16 FREQUENCY BODY ACCELERATION MAGNITUDE MEAN
+	fBodyGyro-mean X,Y,Z
+16 FREQUENCY BODY ACCELERATION MAGNITUDE STD
+	fBodyGyro-std X,Y,Z
+	
+17 FREQUENCY BODY ACCELERATION JERK MAGNITUDE MEAN
+	fBodyAccJerkMag-mean
+17 FREQUENCY BODY ACCELERATION JERK MAGNITUDE STD
+	fBodyAccJerkMag-std
+	
+18 FREQUENCY BODY GYROSCOPE MAGNITUDE MEAN
+	fBodyGyroMag-mean
+18 FREQUENCY BODY GYROSCOPE MAGNITUDE STD
+	fBodyGyroMag-std
+	
+19 FREQUENCY BODY GYROSCOPE JERK MAGNITUDE MEAN
+	fBodyGyroJerkMag-mean
+19 FREQUENCY BODY GYROSCOPE JERK MAGNITUDE STD
+	fBodyGyroJerkMag-std
+
