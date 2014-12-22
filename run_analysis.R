@@ -36,4 +36,4 @@ mean <- grep("mean\\(\\)", names(combinedSYX))
 std <- grep("std\\(\\)", names(combinedSYX))
 combinedMeanStd <- subset(combinedSYX, select=c(1,2,mean,std))
 
-write.csv(x=combinedMeanStd, file="tidy_data.csv", row.names=FALSE)
+write.table(x=combinedMeanStd, file="tidy_data.txt", row.names=FALSE)
