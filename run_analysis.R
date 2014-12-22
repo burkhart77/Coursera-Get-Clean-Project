@@ -3,7 +3,6 @@
 ## it, generate averages for the mean and standard deviation features. A tidy data 
 ## set text file with these averages will be created with descriptive variable names.
 
-#run_analysis <- function() {
 
 ## Load X, Y and Subject Data
 ## X(raw measurements), Y(activity classification), Subject ID
@@ -37,13 +36,4 @@ mean <- grep("mean\\(\\)", names(combinedSYX))
 std <- grep("std\\(\\)", names(combinedSYX))
 combinedMeanStd <- subset(combinedSYX, select=c(1,2,mean,std))
 
-write.csv(x=combinedMeanStd, file="combinedMeanStd.csv", row.names=FALSE)
-
-
-## Sort Tidy Dataset
-
-## Output tidy dataset
-#write.table(x=tidy, file="UCIHAR_Tidy.txt", row.names=FALSE)
-
-
-#} ## End Function run_analysis
+write.csv(x=combinedMeanStd, file="tidy_data.csv", row.names=FALSE)
